@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #88B44E;
+    --primary: #2d6a4f;
     --secondary: #FB9F38;
     --light: #F5F8F2;
     --dark: #252C30;
@@ -87,6 +87,7 @@
 /*** Navbar ***/
 .sticky-top {
     top: -150px;
+	background-color: #127F62;
     transition: .5s;
 }
 
@@ -102,7 +103,7 @@
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
     padding: 25px 0;
-    color: var(--dark);
+    color: #FFF;
     font-weight: 600;
     text-transform: uppercase;
     outline: none;
@@ -110,7 +111,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: #b2ff9e;
 }
 
 .navbar .dropdown-toggle::after {
@@ -167,7 +168,7 @@
     bottom: 0;
     display: flex;
     align-items: center;
-    background: rgba(136, 180, 78, .7);
+    background: rgba(0, 0, 0, .5);
     z-index: 1;
 }
 
