@@ -1,0 +1,10 @@
+warna utama : 2d6a4f
+Fitur fitur landing page 
+-Prestasi 
+-visi misi
+-struktur organisasi
+-testimoni
+-berita
+-unit
+-
+
