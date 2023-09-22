@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Login Admin</title>
     <!-- Favicon icon -->
-	<link href="<?= base_url() ?>assets/image/logopas.png" rel="icon">
+	<link href="https://www.alirsyadjember.sch.id/wp-content/uploads/2021/12/Logo-LPP.png" rel="icon">
     <link href="<?= base_url() ?>assets/admin/css/style.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="<?= base_url() ?>assets/js/sweetalert2-all.js"></script>
@@ -33,12 +33,12 @@
                                         <div class="form-group">
                                             <label><strong>Username</strong></label>
                                             <input type="text" class="form-control" name="username">
-											<?= form_error('username', '<small class="text-light pl-3">', '</small>'); ?>
+											<?= form_error('username', '<small class="text-danger pl-3">', '</small>'); ?>
                                         </div>
                                         <div class="form-group">
                                             <label><strong>Password</strong></label>
                                             <input type="password" class="form-control password" name="password">
-											<?= form_error('password', '<small class="text-light pl-3">', '</small>'); ?>
+											<?= form_error('password', '<small class="text-danger pl-3">', '</small>'); ?>
                                         </div>
                                         <div class="form-row d-flex justify-content-between mt-4 mb-2">
                                             <div class="form-group">
@@ -49,7 +49,7 @@
                                             </div>
                                         </div>
                                         <div class="text-center">
-                                            <button type="submit" class="btn btn-primary btn-block">Masuk</button>
+                                            <button type="submit" class="btn btn-light btn-block">Masuk</button>
                                         </div>
                                     </form>
                                 </div>

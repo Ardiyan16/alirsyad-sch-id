@@ -1,4 +1,4 @@
-warna utama : 2d6a4f
+warna utama : #127F62
 Fitur fitur landing page 
 -Prestasi 
 -visi misi

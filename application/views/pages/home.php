@@ -4,34 +4,36 @@
     <div class="container-fluid px-0 mb-5">
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" src="<?= base_url() ?>assets/image/background1.png" alt="Image">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-7 text-center">
+				<div class="carousel-item active">
+					<img class="w-100" src="<?= base_url('assets/image/slider/DSC_0273.jpg') ?>" alt="Image">
+					<div class="carousel-caption">
+						<div class="container">
+							<div class="row justify-content-center">
+								<div class="col-lg-7 text-center">
 									<h1 class="display-1 text-white mb-4 animated zoomIn">Al Irsyad Al Islamiyyah Jember</h1>
-                                    <p class="fs-4 text-white animated zoomIn"><strong class="text-white">Sekolah Islam Unggul Inspiratif dan Berkarakter</strong></p>
-                                    <a href="https://www.alirsyadjember.sch.id/murottab-dev/PPDB/FormulirOnline/" class="btn btn-success rounded-pill py-3 px-5 animated zoomIn">Daftarkan Sekarang</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="<?= base_url() ?>assets/image/background2.jpg" alt="Image">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-7 text-center">
-									<h1 class="display-1 text-white mb-4 animated zoomIn">Al Irsyad Al Islamiyyah Jember</h1>
-                                    <p class="fs-4 text-white animated zoomIn"><strong class="text-white">Sekolah Islam Unggul Inspiratif dan Berkarakter</strong></p>
-                                    <a href="https://www.alirsyadjember.sch.id/murottab-dev/PPDB/FormulirOnline/" class="btn btn-success rounded-pill py-3 px-5 animated zoomIn">Daftarkan Sekarang</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+									<p class="fs-4 text-white animated zoomIn"><strong class="text-white">Sekolah Islam Unggul Inspiratif dan Berkarakter</strong></p>
+									<a href="https://www.alirsyadjember.sch.id/murottab-dev/PPDB/FormulirOnline/" class="btn btn-success rounded-pill py-3 px-5 animated zoomIn">Daftarkan Sekarang</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<?php foreach($gambar as $value) { ?>
+					<div class="carousel-item">
+						<img class="w-100" src="<?= base_url('assets/image/slider/'. $value->image) ?>" alt="Image">
+						<div class="carousel-caption">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-lg-7 text-center">
+										<h1 class="display-1 text-white mb-4 animated zoomIn">Al Irsyad Al Islamiyyah Jember</h1>
+										<p class="fs-4 text-white animated zoomIn"><strong class="text-white">Sekolah Islam Unggul Inspiratif dan Berkarakter</strong></p>
+										<a href="https://www.alirsyadjember.sch.id/murottab-dev/PPDB/FormulirOnline/" class="btn btn-success rounded-pill py-3 px-5 animated zoomIn">Daftarkan Sekarang</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				<?php } ?>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
                 data-bs-slide="prev">

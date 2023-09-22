@@ -2059,8 +2059,8 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #FFF;
-  background-color: #028000;
-  border-color: #028000; }
+  background-color: #127F62;
+  border-color: #127F62; }
   .btn-success:hover {
     color: #fff;
     background-color: #6ab21c;
@@ -2069,8 +2069,8 @@ fieldset:disabled a.btn {
     box-shadow: 0 0 0 0.2rem rgba(112, 185, 34, 0.5); }
   .btn-success.disabled, .btn-success:disabled {
     color: #FFF;
-    background-color: #028000;
-    border-color: #028000; }
+    background-color: #127F62;
+    border-color: #127F62; }
   .btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active,
   .show > .btn-success.dropdown-toggle {
     color: #fff;
@@ -8061,7 +8061,7 @@ a {
   position: absolute;
   left: 0;
   top: 0;
-  background-color: #028000;
+  background-color: #127F62;
   transition: all .2s ease;
   z-index: 4; }
   .nav-header .logo-abbr {
@@ -8137,7 +8137,7 @@ a {
   z-index: 999; }
 
 .hamburger .line {
-  background: #028000;
+  background: #127F62;
   display: block;
   height: 2px;
   margin-top: 6px;
@@ -10317,7 +10317,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
   top: 5rem;
   padding-top: 0;
   z-index: 2;
-  background-color: #028000;
+  background-color: #127F62;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   transition: all .2s ease; }
   .quixnav .quixnav-scroll {
@@ -10653,7 +10653,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     padding-right: 0;
     justify-content: center; }
   [data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .nav-header .nav-control .hamburger .line {
-    background-color: #028000 !important; }
+    background-color: #127F62 !important; }
 
 [data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .header {
   padding-left: 3.75rem;
@@ -16773,10 +16773,10 @@ table.dataTable tfoot th, table.dataTable tfoot td {
 
 table.dataTable tbody tr, table.dataTable tbody td {
   background: transparent !important;
-	border: 1px solid #028000; }
+	border: 1px solid #127F62; }
 
 table.dataTable thead tr {
-	background:	#028000 !important;
+	background:	#127F62 !important;
 	color: #FFF !important;
 }
 
