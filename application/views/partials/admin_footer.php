@@ -3,7 +3,7 @@
         ***********************************-->
         <div class="footer">
             <div class="copyright">
-                <p>Copyright © <a href="#" target="_blank">Pimpinan Cabang Al-Irsyad Al-Islamiyyah Jember</a> 2023</p>
+                <p>Copyright © <a href="#" target="_blank">Lajnah Pendidikan & Pengajarann Al-Irsyad Al-Islamiyyah Jember</a> 2023</p>
                 <!-- <p>Website by <a href="https://ardiyan.tech/" target="_blank">Ardiyan Ramadhan</a></p> -->
             </div>
         </div>

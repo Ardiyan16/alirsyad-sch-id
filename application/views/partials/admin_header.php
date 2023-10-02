@@ -97,8 +97,8 @@
         <div class="nav-header">
             <a href="<?= base_url('Admin') ?>" class="brand-logo">
                 <!-- <img class="logo-abbr" src="<?= base_url() ?>layouts/image/dian-store.png" alt=""> -->
-                <img class="logo-compact" src="<?= base_url() ?>assets/image/Logo LPP Web.png" height="100" alt="">
-                <img class="brand-title" src="<?= base_url() ?>assets/image/Logo LPP Web.png"  height="100" alt="">
+                <img class="logo-compact" src="<?= base_url() ?>assets/image/Logo LPP Web.png" height="75" alt="">
+                <img class="brand-title" src="<?= base_url() ?>assets/image/Logo LPP Web.png"  height="75" alt="">
             </a>
 
             <div class="nav-control">
@@ -175,23 +175,32 @@
                     <li class="nav-label first">Beranda</li>
                     <!-- <li><a href="index.html"><i class="icon icon-single-04"></i><span class="nav-text">Dashboard</span></a>
                     </li> -->
-                    <li><a href="<?= base_url('Admin/dashboard') ?>" aria-expanded="false"><i class="fa fa-dashboard"></i><span class="nav-text">Dashboard</span></a></li>
+                    <li><a href="<?= base_url('Admin') ?>" aria-expanded="false"><i class="fa fa-dashboard"></i><span class="nav-text">Dashboard</span></a></li>
                     <li><a href="<?= base_url('Admin/gambar_slider') ?>" aria-expanded="false"><i class="fa fa-image"></i><span class="nav-text">Gambar Slider</span></a></li>
-                    <!-- <li><a href="<?= base_url('Admin/pembelian') ?>" aria-expanded="false"><i class="fa fa-cart-shopping"></i><span class="nav-text">Pembelian</span></a></li>
-                    <li><a href="<?= base_url('Admin/laporan_bulanan') ?>" aria-expanded="false"><i class="fa fa-file"></i><span class="nav-text">Laporan Bulanan</span></a></li> -->
 					<li><a href="<?= base_url('Admin/visi_misi') ?>" aria-expanded="false"><i class="fa fa-book"></i><span class="nav-text">Visi Misi</span></a></li>
-					<li><a href="<?= base_url('Admin/pengurus') ?>" aria-expanded="false"><i class="fa fa-users"></i><span class="nav-text">Susunan Pengurus</span></a></li>
-					<li><a href="<?= base_url('Admin/kategori_berita') ?>" aria-expanded="false"><i class="fa fa-list"></i><span class="nav-text">Kategori Berita</span></a></li>
-					<li><a href="<?= base_url('Admin/berita') ?>" aria-expanded="false"><i class="fa fa-newspaper"></i><span class="nav-text">Berita</span></a></li>
-					<li><a href="<?= base_url('Admin/konsultasi_syariah') ?>" aria-expanded="false"><i class="fa-solid fa-handshake-simple"></i><span class="nav-text">Konsultasi Syariah</span></a></li>
 					<li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
-                                class="icon icon-chart-bar-33"></i><span class="nav-text">Sosial Ekonomi</span></a>
+                                class="fa fa-diagram-project"></i><span class="nav-text">Struktur Organisasi</span></a>
                         <ul aria-expanded="false">
-                            <li><a href="<?= base_url('Admin/visimisi_sosek') ?>">Visi & Misi</a></li>
-                            <li><a href="<?= base_url('Admin/struktur_organisasi_sosek') ?>">Struktur Organisasi</a></li>
-                            <li><a href="<?= base_url('Admin/program_sosek') ?>">Program</a></li>
+                            <li><a href="<?= base_url('Admin/struktur_pc') ?>">Pimpinan Cabang</a></li>
+                            <li><a href="<?= base_url('Admin/struktur_lpp') ?>">LPP</a></li>
+                            <li><a href="<?= base_url('Admin/struktur_sd') ?>">SD</a></li>
+                            <li><a href="<?= base_url('Admin/struktur_smp') ?>">SMP</a></li>
+                            <li><a href="<?= base_url('Admin/struktur_tbm') ?>">TBM & PKBM Home Schooling</a></li>
                         </ul>
                     </li>
+					<li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
+                                class="fa fa-list"></i><span class="nav-text">Unit</span></a>
+                        <ul aria-expanded="false">
+                            <li><a href="<?= base_url('Admin/unit') ?>">Unit</a></li>
+                            <li><a href="<?= base_url('Admin/fasilitas_unit') ?>">Fasilitas Unit</a></li>
+                            <li><a href="<?= base_url('Admin/aktivitas_unit') ?>">Foto Kegiatan Unit</a></li>
+                        </ul>
+                    </li>
+					<li><a href="<?= base_url('Admin/ekstrakulikuler') ?>" aria-expanded="false"><i class="fa-solid fa-person-walking"></i><span class="nav-text">Ekstrakulikuler</span></a></li>
+					<li><a href="<?= base_url('Admin/berita') ?>" aria-expanded="false"><i class="fa fa-newspaper"></i><span class="nav-text">Berita</span></a></li>
+					<li><a href="<?= base_url('Admin/prestasi') ?>" aria-expanded="false"><i class="fa-solid fa-medal"></i><span class="nav-text">Prestasi</span></a></li>
+					<li><a href="<?= base_url('Admin/testimoni') ?>" aria-expanded="false"><i class="fa-solid fa-comment"></i><span class="nav-text">Testimony</span></a></li>
+					<li><a href="<?= base_url('Admin/kuota_pendaftaran') ?>" aria-expanded="false"><i class="fa-solid fa-list-ol"></i><span class="nav-text">Kuota Pendaftaran</span></a></li>
                 </ul>
             </div>
         </div>

@@ -9,7 +9,7 @@
 					<?php if (empty($data)) { ?>
 						<a href="<?= base_url('Admin/tambah_visi_misi') ?>" class="btn btn-success btn-sm mt-4"><i class="fa fa-circle-plus"></i> Tambah Visi Misi</a> 
 					<?php } else { ?>
-						<a href="<?= base_url('Admin/tambah_visi_misi') ?>" class="btn btn-success btn-sm mt-4"><i class="fa fa-circle-plus"></i> Edit Visi Misi</a> 
+						<a href="<?= base_url('Admin/tambah_visi_misi') ?>" class="btn btn-success btn-sm mt-4"><i class="fa fa-edit"></i> Edit Visi Misi</a> 
 					<?php } ?>
 				</div>
 			</div>
@@ -62,6 +62,7 @@
 
 <?php $this->load->view('partials/admin_footer.php') ?>
 <script>
+
 	<?php if ($this->session->flashdata('success_simpan')) : ?>
 			Swal.fire({
 				icon: 'success',

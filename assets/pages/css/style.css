@@ -201,7 +201,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(136, 180, 78, .7), rgba(136, 180, 78, .7)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/lpp-background.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -256,7 +256,7 @@
 
 /*** Products ***/
 .product {
-    background: linear-gradient(rgba(136, 180, 78, .1), rgba(136, 180, 78, .1)), url(../img/product-bg.png) left bottom no-repeat;
+    background: linear-gradient(rgba(136, 180, 78, .1), rgba(136, 180, 78, .1)), url(../img/logo_lpp.png) left bottom no-repeat;
     background-size: auto;
 }
 
@@ -421,7 +421,7 @@
 
 /*** Testimonial ***/
 .testimonial {
-    background: linear-gradient(rgba(136, 180, 78, .85), rgba(136, 180, 78, .85)), url(../img/testimonial-bg.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url(../img/logopas.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -504,4 +504,46 @@
 
 .copyright a:hover {
     color: #FFFFFF !important;
+}
+
+.list-section {
+	background-color: #127F62;
+}
+
+.list-box {
+	overflow: hidden;
+	letter-spacing: 0.5px;
+}
+
+.list-box .list-icon i {
+	display: block;
+	font-size: 24px;
+	margin-right: 15px;
+	color: #FFF;
+	width: 65px;
+	height: 65px;
+	text-align: center;
+	line-height: 60px;
+	border: 2px #FFF dotted;
+	border-radius: 999px;
+}
+
+.list-box .content h1 {
+	display: block;
+	line-height: 22px;
+	font-size: 50px;
+	color: #FFF;
+	margin-bottom: 10px;
+}
+.list-box .content h3 {
+	display: block;
+	line-height: 22px;
+	font-size: 18px;
+	color: #FFF;
+	margin-bottom: 4px;
+	margin-top: 30px;
+}
+
+.link-selengkapnya {
+	margin-top: 80px;
 }
