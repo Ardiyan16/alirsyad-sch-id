@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
@@ -39,9 +39,9 @@
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
-    </div>
+    </div> -->
     <!-- Spinner End -->
 
     
@@ -63,25 +63,29 @@
                             <div class="dropdown-menu bg-light rounded-0 m-0">
                                 <a href="<?= base_url('Pages/selayang_pandang') ?>" class="dropdown-item">Selayang Pandang</a>
                                 <a href="<?= base_url('Pages/visi_misi') ?>" class="dropdown-item">Visi Misi</a>
-                                <a href="testimonial.html" class="dropdown-item">Struktur Organisasi</a>
+                                <a href="<?= base_url('Pages/struktur_organisasi') ?>" class="dropdown-item">Struktur Organisasi</a>
                             </div>
                         </div>
 						<div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Unit</a>
                             <div class="dropdown-menu bg-light rounded-0 m-0">
-                                <a href="feature.html" class="dropdown-item">Selayang Pandang</a>
+                                <a href="<?= base_url('Pages/sekolah_dasar') ?>" class="dropdown-item">SD</a>
+                                <a href="<?= base_url('Pages/sekolah_menengah_pertama') ?>" class="dropdown-item">SMP</a>
+                                <a href="<?= base_url('Pages/inklusi') ?>" class="dropdown-item">Inklusi</a>
+                                <a href="<?= base_url('Pages/taman_pendidikan_quran') ?>" class="dropdown-item">TPQ</a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Informasi</a>
                             <div class="dropdown-menu bg-light rounded-0 m-0">
-                                <a href="feature.html" class="dropdown-item">Pendaftaran</a>
-                                <a href="blog.html" class="dropdown-item">Pembayaran</a>
-                                <a href="testimonial.html" class="dropdown-item">Pengumuman</a>
+                                <a href="<?= base_url('Pages/pendaftaran') ?>" class="dropdown-item">Pendaftaran</a>
+                                <a href="<?= base_url('Pages/pembayaran') ?>" class="dropdown-item">Pembayaran</a>
+                                <a href="<?= base_url('Pages/pengumuman') ?>" class="dropdown-item">Pengumuman</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Berita</a>
-                        <a href="contact.html" class="nav-item nav-link">Kontak</a>
+                        <a href="<?= base_url('Pages/berita') ?>" class="nav-item nav-link">Berita</a>
+                        <a href="<?= base_url('Pages/kontak') ?>" class="nav-item nav-link">Kontak</a>
+                        <a href="<?= base_url('Pages/elearning') ?>" class="nav-item nav-link">E-Learning</a>
                     </div>
                 </div>
             </nav>

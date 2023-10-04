@@ -215,6 +215,66 @@
     color: var(--light);
 }
 
+.page-header-sd {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/sd-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-sd .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.page-header-sd .breadcrumb-item,
+.page-header-sd .breadcrumb-item a {
+    font-size: 18px;
+    color: var(--light);
+}
+
+.page-header-smp {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/smp-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-smp .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.page-header-smp .breadcrumb-item,
+.page-header-smp .breadcrumb-item a {
+    font-size: 18px;
+    color: var(--light);
+}
+
+.page-header-inklusi {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/inklusi-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-inklusi .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.page-header-inklusi .breadcrumb-item,
+.page-header-inklusi .breadcrumb-item a {
+    font-size: 18px;
+    color: var(--light);
+}
+
+.page-header-tpq {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/tpq-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-tpq .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.page-header-tpq .breadcrumb-item,
+.page-header-tpq .breadcrumb-item a {
+    font-size: 18px;
+    color: var(--light);
+}
+
 
 /*** Section Title ***/
 .section-title {
@@ -462,6 +522,48 @@
     background: var(--dark);
 }
 
+/*** fasilitas ***/
+.fasilitas {
+    background: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url(../../image/logosd.png) center center no-repeat;
+    background-size: cover;
+}
+
+.fasilitas-item {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 30px solid var(--primary);
+}
+
+.fasilitas-item img {
+    max-width: 400px;
+    /* border-radius: 60px; */
+}
+
+.fasilitas-carousel .owl-dots {
+    margin-top: 35px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.fasilitas-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    background: var(--primary);
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.fasilitas-carousel .owl-dot.active {
+    width: 30px;
+    background: var(--dark);
+}
+
 
 /*** Footer ***/
 .footer {
@@ -547,3 +649,9 @@
 .link-selengkapnya {
 	margin-top: 80px;
 }
+
+.konten-pendaftaran .icon-arrow {
+	font-size: 80px;
+	color: #127F62;
+}
+
