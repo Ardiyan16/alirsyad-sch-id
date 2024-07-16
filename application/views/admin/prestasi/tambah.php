@@ -43,7 +43,22 @@
 										</div>
 										<div class="form-group col-md-12">
 											<label>Tingkat</label>
-											<input type="text" class="form-control" name="level" value="<?= set_value('level') ?>">
+											<select class="form_control" name="level" id="select-level">
+												<!-- <option disabled selected>Pilih Tingkat</option> -->
+												<option <?php if (set_value('level') == 'kabupaten') {
+															echo "selected=\"selected\"";
+														} ?> value="kabupaten">Kabupaten</option>
+												<option <?php if (set_value('level') == 'provinsi') {
+															echo "selected=\"selected\"";
+														} ?> value="provinsi">Provinsi</option>
+												<option <?php if (set_value('level') == 'nasional') {
+															echo "selected=\"selected\"";
+														} ?> value="nasional">Nasional</option>
+												<option <?php if (set_value('level') == 'internasional') {
+															echo "selected=\"selected\"";
+														} ?> value="internasional">Internasional</option>
+											</select>
+											<!-- <input type="text" class="form-control" name="level" value="<?= set_value('level') ?>"> -->
 											<?= form_error('level', '<small class="text-danger pl-3">', '</small>'); ?>
 										</div>
 										<div class="form-group col-md-12">
@@ -77,3 +92,7 @@
 </div>
 
 <?php $this->load->view('partials/admin_footer.php') ?>
+<script>
+	$('#select-level').select2();
+</script>
+

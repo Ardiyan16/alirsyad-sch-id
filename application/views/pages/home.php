@@ -135,10 +135,36 @@
     </div>
     <!-- Products End -->
 
+	<?php
+function tgl_indo($tanggal){
+	$bulan = array (
+		1 =>   'Januari',
+		'Februari',
+		'Maret',
+		'April',
+		'Mei',
+		'Juni',
+		'Juli',
+		'Agustus',
+		'September',
+		'Oktober',
+		'November',
+		'Desember'
+	);
+	$pecahkan = explode('-', $tanggal);
+	
+	// variabel pecahkan 0 = tanggal
+	// variabel pecahkan 1 = bulan
+	// variabel pecahkan 2 = tahun
+ 
+	return $pecahkan[2] . ' ' . $bulan[ (int)$pecahkan[1] ] . ' ' . $pecahkan[0];
+} 
+?>
+
 	<div class="list-section py-5 pt-80 pb-80">
         <div class="container">
 			<h2 class="text-center wow fadeInUp" style="color: #FFF;">Kuota Pendaftaran Tahun Ajaran <?= $kuota->year ?></h2>
-			<p class="text-center wow fadeInUp" style="margin-bottom: 60px; color: #FFF;">Dibuka pada 01 Oktober 2023</p>
+			<p class="text-center wow fadeInUp" style="margin-bottom: 60px; color: #FFF;">Dibuka pada 01 Oktober 2023 <br>(diupdate pada <?= tgl_indo($kuota->updated_at) ?>)</p>
             <div class="row wow fadeInUp" style="margin-left: 10%;">
 				<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
 					<div class="list-box d-flex align-items-center">
